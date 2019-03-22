@@ -27,6 +27,9 @@ namespace CatelTest.Uwp.Ui
 
             viewLocator.Register(typeof(PersonViewModel), typeof(PersonView));
             viewModelLocator.Register(typeof(PersonView), typeof(PersonViewModel));
+
+            viewLocator.Register(typeof(AnotherViewModel), typeof(AnotherView));
+            viewModelLocator.Register(typeof(AnotherView), typeof(AnotherViewModel));
         }
     }
 }
